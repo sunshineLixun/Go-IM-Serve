@@ -1,11 +1,9 @@
 package models
 
 import (
-	"time"
-
-	"gorm.io/gorm"
-
 	"gin-chat/utils"
+	"gorm.io/gorm"
+	"time"
 )
 
 type UserBasic struct {
